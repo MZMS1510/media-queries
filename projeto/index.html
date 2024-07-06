@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <span id="hamburger" class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+        </span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando media queries</h2>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut labore natus ex est neque sequi
+                exercitationem voluptatum facilis, commodi, provident recusandae enim fugiat sed ab quia hic similique?
+                Sint, a? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam esse animi quisquam consequatur
+                dolorum inventore commodi deleniti quae placeat, repudiandae a enim eveniet perferendis, cupiditate
+                earum dolore, incidunt error sequi!</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae placeat temporibus sunt sequi beatae
+                nostrum aliquam consequatur enim error quod labore maxime eius quibusdam nulla deleniti tempore in,
+                illum numquam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus nulla inventore
+                aspernatur veritatis, fugit vitae provident fuga iure vero praesentium nihil mollitia dolores optio
+                soluta est nobis sint. Eaque, rem?</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non beatae nisi in recusandae laboriosam,
+                architecto perspiciatis quisquam distinctio labore, obcaecati laudantium libero sunt rem illo, placeat
+                esse rerum iste exercitationem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum sint quidem
+                vero quasi ex mollitia ad consequatur qui commodi veritatis eveniet voluptas doloribus fugit,
+                dignissimos impedit suscipit ducimus voluptate tenetur?</p>
+        </article>
+    </main>
+
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+
+</html>
